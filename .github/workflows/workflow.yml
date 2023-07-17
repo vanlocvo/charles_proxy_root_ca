@@ -33,5 +33,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         with:
           artifacts: "charlesproxycert-*.zip"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           generateReleaseNotes: true
