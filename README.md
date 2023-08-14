@@ -4,7 +4,7 @@
 1. Export pem file from Charles Proxy
 2. Get hash of pem file:
     ```shell
-    openssl x509 -noout -hash -in <pem_file>
+    openssl x509 -inform PEM -subject_hash_old -in <pem_file> | head -1
     ```
 3. Rename the `pem_file` to its `<hash>.0`
 4. Move the `hash_pem_file` to `module/system/etc/security/cacerts`
