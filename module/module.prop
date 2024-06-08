@@ -1,6 +1,6 @@
 id=charlesproxycert
 name=Charles Proxy Certificate Root CA
-version=v1.1
-versionCode=11
+version=v1.2
+versionCode=12
 author=NONE
 description=Save Charles Proxy's root CA certificate in the system certificate store.
